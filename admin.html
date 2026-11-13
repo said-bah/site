@@ -2,163 +2,300 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Labo Sciences PRO - Articles Gratuits + PDF + Exercices Corriges - Lycee & Universite</title>
-<meta name="description" content="Labo Sciences PRO - Articles gratuits, PDF, Exercices corriges - Lycee et Universite - Chimie, Biologie, Physique - Apprends les sciences en t'amusant">
-<meta name="keywords" content="chimie, biologie, physique, exercices corriges, PDF sciences, lycee, universite, Maroc, sciences, volcan, cellule, titrage, bacteries">
-<meta name="author" content="Labo Sciences PRO">
-<meta name="robots" content="index, follow">
-<meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXX">
-<meta property="og:title" content="Labo Sciences PRO - Articles + PDF + Exercices">
-<meta property="og:description" content="Lis des articles gratuits - Exercices corriges - PDF 20 DH - Lycee et Universite">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.ton-site.com/">
-<link rel="canonical" href="https://www.ton-site.com/">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX" crossorigin="anonymous"></script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Labo Sciences PRO","url":"https://www.ton-site.com/","description":"Articles gratuits, PDF, Exercices corriges - Lycee et Universite","inLanguage":"fr"}
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Labo Sciences PRO - Administration</title>
 <style>
-*{box-sizing:border-box;font-family:'Segoe UI',Arial} body{margin:0;background:#eef6ff;padding-bottom:20px;color:#1e293b}
-header{background:linear-gradient(135deg,#0b1226,#0f2a6b,#1e40af,#7c3aed);color:white;padding:0 0 22px;text-align:center;border-radius:0 0 38px 38px}
-header h1{margin:8px 0 0;font-size:33px} header p{margin:8px 16px;line-height:1.6;font-size:14px;opacity:.95}
-.lang{margin-top:10px} .lang button{background:#fff;color:#1e40af;border:0;padding:8px 16px;border-radius:20px;font-weight:800;cursor:pointer;margin:0 3px}
-.lang button.active{background:#facc15;color:#111}
-nav{display:flex;gap:6px;overflow:auto;padding:10px;position:sticky;top:0;background:#eef6ff;z-index:10} nav button{flex:1;white-space:nowrap;padding:13px 4px;border:0;border-radius:16px;background:white;font-weight:800;cursor:pointer;font-size:11px;box-shadow:0 2px 8px #0001} nav button.active{background:#1e40af;color:white}
-.card{background:white;margin:12px;padding:20px;border-radius:22px;box-shadow:0 6px 20px #0001}
-.hero{background:linear-gradient(135deg,#ecfeff,#dbeafe,#fef3c7);border:2px solid #06b6d4}
-.pdf{border:2px solid #c4b5fd;padding:18px;border-radius:20px;margin:13px 0;text-align:center;background:linear-gradient(180deg,#fff,#f5f3ff)} .pdf h4{margin:6px 0;font-size:19px}
-.exo{background:#f8fafc;border:2px solid #e0e7ff;padding:16px;border-radius:18px;margin:12px 0;text-align:left}
-.solution{background:#ecfdf5;border:1px solid #86efac;padding:12px;border-radius:12px;margin-top:8px}
-.btn{background:#1e40af;color:white;border:0;padding:14px;width:100%;border-radius:14px;font-weight:800;cursor:pointer;margin-top:8px;font-size:15px}
-.btn-orange{background:linear-gradient(135deg,#f97316,#ea580c);color:white;border:0;padding:14px;width:100%;border-radius:14px;font-weight:800;cursor:pointer;margin-top:8px}
-.btn-amazon{background:#ff9900;color:#111;border:0;padding:14px;width:100%;border-radius:14px;font-weight:800;cursor:pointer;margin-top:8px}
-.btn-gold{background:linear-gradient(135deg,#06b6d4,#1e40af,#7c3aed);color:white;border:0;padding:16px;width:100%;border-radius:15px;font-weight:900;cursor:pointer;font-size:15px}
-.offre{border:2px solid #a5f3fc;background:#ecfeff;padding:18px;border-radius:20px;margin:13px 0;text-align:center} .offre.best{border-color:#16a34a;background:#f0fdf4}
-input,textarea,select{width:100%;padding:13px;margin:6px 0;border:1px solid #ddd;border-radius:13px}
-.hidden{display:none} .badge{background:#22c55e;color:white;padding:5px 11px;border-radius:20px;font-size:12px;font-weight:700}
-.small{font-size:12px;color:#64748b;line-height:1.6}
-.cat-lycee{background:#1e40af;color:white;padding:10px 14px;border-radius:14px;font-weight:900;margin:16px 0 8px}
-.cat-univ{background:#7c3aed;color:white;padding:10px 14px;border-radius:14px;font-weight:900;margin:16px 0 8px}
-.article{background:white;border:2px solid #e0e7ff;padding:0;border-radius:22px;margin:14px 0;overflow:hidden;box-shadow:0 6px 20px #0001}
-.article-img{font-size:52px;text-align:center;padding:22px 10px 5px;background:linear-gradient(135deg,#ecfeff,#dbeafe,#fef3c7)}
-.article-body{padding:16px}
-.article-body h4{margin:5px 0;font-size:19px;line-height:1.4}
-.article-meta{font-size:12px;color:#64748b;margin:6px 0}
-.article-preview{line-height:1.7;font-size:14px;color:#334155}
-.article-full{line-height:1.8;font-size:14px;background:#f8fafc;padding:14px;border-radius:14px;margin-top:10px;border:1px solid #e2e8f0}
-.btn-read{background:#111;color:white;border:0;padding:12px;width:100%;border-radius:13px;font-weight:800;cursor:pointer;margin-top:10px}
-.btn-like{background:white;color:#ef4444;border:2px solid #fecaca;padding:10px;border-radius:13px;font-weight:800;cursor:pointer;flex:1}
-.btn-share{background:white;color:#1e40af;border:2px solid #bfdbfe;padding:10px;border-radius:13px;font-weight:800;cursor:pointer;flex:1}
-.like-row{display:flex;gap:8px;margin-top:10px}
-.cat-badge{display:inline-block;padding:5px 10px;border-radius:20px;font-size:11px;font-weight:800;color:white}
-.ads-box{background:#f8fafc;border:1px dashed #cbd5e1;padding:10px;border-radius:14px;text-align:center;margin:14px 0;font-size:12px;color:#94a3b8}
-.footer-links a{color:#1e40af;text-decoration:none;font-weight:700;margin:0 8px;font-size:13px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#eef3fb;color:#1e293b}
+header{background:linear-gradient(135deg,#0b1226,#1e40af,#7c3aed);color:white;padding:25px;text-align:center}
+header h1{margin:5px}
+.container{max-width:1000px;margin:20px auto;padding:12px}
+.card{background:white;padding:20px;border-radius:16px;margin-bottom:16px;box-shadow:0 4px 15px #0001}
+input,textarea,select{width:100%;padding:12px;margin:7px 0;border:1px solid #cbd5e1;border-radius:9px}
+button{border:0;padding:12px 16px;border-radius:9px;background:#1e40af;color:white;font-weight:bold;cursor:pointer;margin:4px}
+button:hover{opacity:.85}
+.red{background:#dc2626}
+.green{background:#16a34a}
+.purple{background:#7c3aed}
+.orange{background:#ea580c}
+nav{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:15px}
+nav button{flex:1;min-width:110px}
+.hidden{display:none!important}
+.item{border:1px solid #ddd;padding:14px;border-radius:12px;margin:10px 0}
+.item strong{font-size:17px}
+small{color:#64748b}
+h2{color:#1e40af}
+#login{max-width:400px;margin:60px auto}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.stat{background:#eff6ff;padding:17px;border-radius:12px;text-align:center}
+.stat b{font-size:24px;color:#1e40af}
 </style>
 </head>
 <body>
 
 <header>
-<div style="font-size:50px;padding:20px 10px 0">🧪 ⚗️ 🔬 🧫 🌋</div>
 <h1>🧪 Labo Sciences PRO</h1>
-<p data-fr="THE LAB - Articles + PDF + Exercices Corriges - Lycee & Universite" data-en="THE LAB - Articles + PDF + Solved Exercises - High School & University">THE LAB - Articles + PDF + Exercices Corriges - Lycee & Universite</p>
-<p>⭐ 4.9 / 5 - 📖 Articles Gratuits - 🧪 Real Experiments</p>
-<div class="lang"><button id="btnFR" class="active" onclick="setLang('fr')">🇫🇷 Francais</button><button id="btnEN" onclick="setLang('en')">🇬🇧 English</button></div>
+<p>Administration et gestion de la plateforme</p>
 </header>
 
+<div class="container">
+
+<div id="login" class="card">
+<h2>🔐 Connexion Administrateur</h2>
+<p>Accès réservé à l'administrateur</p>
+<input type="password" id="password" placeholder="Mot de passe de démonstration">
+<button onclick="login()" style="width:100%">Se connecter</button>
+<p id="error" style="color:red"></p>
+<small>Version de démonstration : le mot de passe est labo2026. Cette connexion n'est pas une protection réelle.</small>
+</div>
+
+<div id="panel" class="hidden">
+
+<div class="card">
+<h2>📊 Tableau de bord</h2>
+<div class="stats">
+<div class="stat"><b id="productCount">0</b><br>Produits</div>
+<div class="stat"><b id="articleCount">0</b><br>Articles</div>
+<div class="stat"><b id="pdfCount">0</b><br>PDF</div>
+<div class="stat"><b id="exoCount">0</b><br>Exercices</div>
+</div>
+</div>
+
 <nav>
-<button onclick="show('home',this)" class="active" data-fr="🏠 Accueil" data-en="🏠 Home">🏠 Accueil</button>
-<button onclick="show('articles',this)" data-fr="📰 Articles" data-en="📰 Articles">📰 Articles</button>
-<button onclick="show('pdf',this)" data-fr="📚 PDF - 20 DH" data-en="📚 PDF - 20 DH">📚 PDF - 20 DH</button>
-<button onclick="show('exo',this)" data-fr="✍️ Exercices" data-en="✍️ Exercises">✍️ Exercices</button>
-<button onclick="show('amazon',this)" data-fr="🛒 Amazon" data-en="🛒 Amazon">🛒 Amazon</button>
-<button onclick="show('abo',this)" data-fr="💎 Abonnement" data-en="💎 Subscription">💎 Abonnement</button>
+<button onclick="show('home')">🏠 Accueil</button>
+<button onclick="show('products')">🛒 Produits</button>
+<button onclick="show('articles')">📰 Articles</button>
+<button onclick="show('pdf')">📚 PDF</button>
+<button onclick="show('exercises')">✍️ Exercices</button>
+<button onclick="show('settings')">⚙️ Paramètres</button>
 </nav>
 
-<div id="home" class="card hero">
-<div style="font-size:50px;text-align:center">🧪 🔬 ⚗️ 🧫 🌋 ⚖️</div>
-<h2 style="text-align:center" data-fr="🧪 BIENVENUE AU LABO - Lycee & Universite" data-en="🧪 WELCOME TO THE LAB - High School & University">🧪 BIENVENUE AU LABO - Lycee & Universite</h2>
-<p style="text-align:center;line-height:1.6" data-fr="📖 Lis des articles gratuits - ✍️ Exercices corriges - 📚 PDF - Tout dans la plateforme !" data-en="📖 Read free articles - ✍️ Solved exercises - 📚 PDF - Everything in the platform !">📖 Lis des articles gratuits - ✍️ Exercices corriges - 📚 PDF - Tout dans la plateforme !</p>
-<button class="btn-gold" onclick="show('articles',document.querySelectorAll('nav button')[1])" data-fr="📰 LIRE LES ARTICLES GRATUITS" data-en="📰 READ FREE ARTICLES">📰 LIRE LES ARTICLES GRATUITS</button>
-<button class="btn" style="margin-top:8px" onclick="show('exo',document.querySelectorAll('nav button')[3])" data-fr="✍️ VOIR LES EXERCICES CORRIGES" data-en="✍️ SEE SOLVED EXERCISES">✍️ VOIR LES EXERCICES CORRIGES</button>
-<button class="btn-orange" style="margin-top:8px" onclick="show('pdf',document.querySelectorAll('nav button')[2])" data-fr="📚 VOIR LES PDF - 20 DH" data-en="📚 SEE PDF - 20 DH">📚 VOIR LES PDF - 20 DH</button>
-<div style="background:white;padding:14px;border-radius:16px;margin-top:14px;text-align:center"><b data-fr="🔥 Le plus lu aujourd'hui :" data-en="🔥 Most read today :">🔥 Le plus lu aujourd'hui :</b><br>🌋 Le Volcan - 1 240 lectures - ⭐ 4.9<br>🔬 La Cellule - 980 lectures - ⭐ 4.8</div>
-<div class="ads-box">
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXX" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+<section id="home" class="card">
+<h2>Bienvenue dans votre administration</h2>
+<p>Gérez le contenu de Labo Sciences PRO depuis cette interface.</p>
+<p>Choisissez une rubrique dans le menu.</p>
+</section>
+
+<section id="products" class="card hidden">
+<h2>🛒 Gestion des produits et des prix</h2>
+<input id="pname" placeholder="Nom du produit">
+<input id="pprice" type="number" placeholder="Prix en DH">
+<textarea id="pdesc" placeholder="Description du produit"></textarea>
+<button onclick="add('products')">➕ Ajouter le produit</button>
+<div id="productsList"></div>
+</section>
+
+<section id="articles" class="card hidden">
+<h2>📰 Gestion des articles</h2>
+<input id="aname" placeholder="Titre de l'article">
+<textarea id="adesc" placeholder="Contenu de l'article"></textarea>
+<button onclick="add('articles')">➕ Ajouter l'article</button>
+<div id="articlesList"></div>
+</section>
+
+<section id="pdf" class="card hidden">
+<h2>📚 Gestion des PDF</h2>
+<input id="pdfname" placeholder="Nom du document PDF">
+<input id="pdfprice" type="number" placeholder="Prix en DH">
+<input id="pdflink" placeholder="Lien du fichier PDF">
+<button onclick="add('pdf')">➕ Ajouter le PDF</button>
+<div id="pdfList"></div>
+</section>
+
+<section id="exercises" class="card hidden">
+<h2>✍️ Gestion des exercices</h2>
+<input id="exname" placeholder="Titre de l'exercice">
+<textarea id="exdesc" placeholder="Question et correction"></textarea>
+<button onclick="add('exercises')">➕ Ajouter l'exercice</button>
+<div id="exercisesList"></div>
+</section>
+
+<section id="settings" class="card hidden">
+<h2>⚙️ Paramètres généraux</h2>
+<label>Nom de la plateforme</label>
+<input id="siteName" value="Labo Sciences PRO">
+<label>Email de contact</label>
+<input id="email" value="labo.sciences@gmail.com">
+<label>Prix PDF standard (DH)</label>
+<input id="pricePDF" type="number" value="20">
+<label>Abonnement mensuel (DH)</label>
+<input id="priceAbo" type="number" value="49">
+<label>Pack VIP (DH)</label>
+<input id="priceVIP" type="number" value="199">
+<button onclick="saveSettings()">💾 Enregistrer les paramètres</button>
+<hr>
+<button class="red" onclick="logout()">Déconnexion</button>
+</section>
+
+<div class="card">
+<h3>💾 Sauvegarde locale</h3>
+<button class="green" onclick="exportData()">Exporter les données JSON</button>
+<p><small>Les données de cette version sont enregistrées uniquement dans le navigateur utilisé.</small></p>
 </div>
 
-<div id="articles" class="card hidden">
-<h2 data-fr="📰 Articles - Lis gratuitement" data-en="📰 Articles - Read Free">📰 Articles - Lis gratuitement</h2>
-<p>Decouvre nos articles de chimie, biologie et physique pour le lycee et l'universite. Chaque article est court, amusant et facile a comprendre.</p>
-<div id="articlesContainer">
-<div class="article" data-id="art1"><div class="article-img">🌋 🧪</div><div class="article-body"><span class="cat-badge" style="background:#f97316">🌋 CHIMIE - LYCEE</span><h3 data-fr="🌋 Comment fonctionne le volcan ?" data-en="🌋 How does the volcano work ?">🌋 Comment fonctionne le volcan ?</h3><div class="article-meta">📅 12 Nov 2026 - ⏱️ 2 min - 👁️ 1 240</div><p class="article-preview" data-fr="Tu melanges le vinaigre + le bicarbonate - Tu vois une mousse qui monte comme un vrai volcan !" data-en="You mix vinegar + baking soda - You see foam rising like a real volcano !">Tu melanges le vinaigre + le bicarbonate - Tu vois une mousse qui monte comme un vrai volcan !</p><div class="article-full hidden"><b>🧪 Experience :</b><br>1 - Un verre de vinaigre<br>2 - Une cuillere de bicarbonate<br><br><b>💡 Explication :</b><br>Le vinaigre = acide - Le bicarbonate = base - Ils reagissent et donnent du gaz CO2.</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>128</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
-<div class="ads-box"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXX" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
-<div class="article" data-id="art2"><div class="article-img">🔬 🧫</div><div class="article-body"><span class="cat-badge" style="background:#1e40af">🔬 BIOLOGIE - LYCEE</span><h3 data-fr="🔬 La Cellule : Une petite ville dans ton corps !" data-en="🔬 The Cell : A small city in your body !">🔬 La Cellule : Une petite ville dans ton corps !</h3><div class="article-meta">📅 11 Nov 2026 - ⏱️ 3 min - 👁️ 980</div><p class="article-preview" data-fr="Imagine une petite ville - Avec une usine - Un entrepot - Un gardien - C'est ta cellule !" data-en="Imagine a small city - With a factory - A warehouse - A guard - That's your cell !">Imagine une petite ville - Avec une usine - Un entrepot - Un gardien - C'est ta cellule !</p><div class="article-full hidden"><b>🏙️ La cellule = Une ville :</b><br>🧠 Noyau = Le chef - Il contient l'ADN<br>🛡️ Membrane = Le gardien<br>🏭 Cytoplasme = L'usine</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>95</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
-<div class="article" data-id="art3"><div class="article-img">⚗️ 🧪</div><div class="article-body"><span class="cat-badge" style="background:#7c3aed">⚗️ CHIMIE - UNIVERSITE</span><h3 data-fr="⚗️ Titrage - Comment connaitre la quantite d'acide ?" data-en="⚗️ Titration - How to know the amount of acid ?">⚗️ Titrage - Comment connaitre la quantite d'acide ?</h3><div class="article-meta">📅 10 Nov 2026 - ⏱️ 3 min - 👁️ 850</div><p class="article-preview" data-fr="Tu as un verre avec de l'acide - Tu ne sais pas combien il y en a - La solution c'est le Titrage ..." data-en="You have a glass with acid - You don't know how much - The solution is Titration ...">Tu as un verre avec de l'acide - Tu ne sais pas combien il y en a - La solution c'est le Titrage ...</p><div class="article-full hidden"><b>📐 La regle d'or :</b><br>C1 x V1 = C2 x V2<br><br>Exemple : 20 mL HCl 0.1 mol/L + NaOH 0.1 mol/L - V2 = 20 mL - pH = 7</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>210</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
-<div class="article" data-id="art4"><div class="article-img">🧫 🔬</div><div class="article-body"><span class="cat-badge" style="background:#16a34a">🧫 MICROBIO - UNIVERSITE</span><h3 data-fr="🧫 Les Bacteries - Amies ou ennemies ?" data-en="🧫 Bacteria - Friends or enemies ?">🧫 Les Bacteries - Amies ou ennemies ?</h3><div class="article-meta">📅 9 Nov 2026 - ⏱️ 2 min - 👁️ 760</div><p class="article-preview" data-fr="100 bacteries - Toutes les 20 minutes elles deviennent 200 - Apres 2 heures combien ?" data-en="100 bacteria - Every 20 minutes they become 200 - After 2 hours how many ?">100 bacteries - Toutes les 20 minutes elles deviennent 200 - Apres 2 heures combien ?</p><div class="article-full hidden"><b>📈 Croissance :</b><br>100 → 200 → 400 → 800 → 1600 → 3200 → 6400</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>87</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
-<div class="article" data-id="art5"><div class="article-img">📐 ⚖️ 🍎</div><div class="article-body"><span class="cat-badge" style="background:#ea580c">📐 PHYSIQUE - UNIVERSITE</span><h3 data-fr="🍎 Pourquoi la pomme tombe ? - Newton et la pomme" data-en="🍎 Why does the apple fall ? - Newton and the apple">🍎 Pourquoi la pomme tombe ? - Newton et la pomme</h3><div class="article-meta">📅 8 Nov 2026 - ⏱️ 2 min - 👁️ 920</div><p class="article-preview" data-fr="Newton dormait sous l'arbre - Une pomme est tombee sur lui - Et il a decouvert la gravite ..." data-en="Newton was sleeping under the tree - An apple fell on him - And he discovered gravity ...">Newton dormait sous l'arbre - Une pomme est tombee sur lui - Et il a decouvert la gravite ...</p><div class="article-full hidden"><b>📐 La regle :</b><br>h = 1/2 x g x t²<br><br>Exemple : Pierre de 20m - g=10 - t = 2s</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>143</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
-<div class="article" data-id="art6"><div class="article-img">🌍 💧</div><div class="article-body"><span class="cat-badge" style="background:#06b6d4">🌍 ENVIRONNEMENT - TOUS</span><h3 data-fr="💧 pH - L'eau que tu bois est acide ou basique ?" data-en="💧 pH - Is the water you drink acid or basic ?">💧 pH - L'eau que tu bois est acide ou basique ?</h3><div class="article-meta">📅 7 Nov 2026 - ⏱️ 2 min - 👁️ 1 100</div><p class="article-preview" data-fr="pH = 7 = Eau pure - pH moins de 7 = Acide - pH plus de 7 = Basique - Le citron pH 2 - Le savon 12 ..." data-en="pH = 7 = Pure water - pH less than 7 = Acid - pH more than 7 = Basic - Lemon pH 2 - Soap 12 ...">pH = 7 = Eau pure - pH moins de 7 = Acide - pH plus de 7 = Basique - Le citron pH 2 - Le savon 12 ...</p><div class="article-full hidden"><b>📊 Echelle pH :</b><br>0-6 = Acide - Citron 2 - Vinaigre 3<br>7 = Neutre - Eau pure<br>8-14 = Basique - Savon 10 - Javel 12</div><button class="btn-read" onclick="toggleArticle(this)" data-fr="📖 Lire l'article complet" data-en="📖 Read full article">📖 Lire l'article complet</button><div class="like-row"><button class="btn-like" onclick="likeBtn(this)">❤️ <span>176</span> J'aime</button><button class="btn-share" onclick="alert('Lien copie !')">🔗 Partager</button></div></div></div>
 </div>
 </div>
-
-<div id="pdf" class="card hidden">
-<h2 data-fr="📚 Boutique PDF - Lycee & Universite" data-en="📚 PDF Shop - High School & University">📚 Boutique PDF - Lycee & Universite</h2>
-<div id="pdfContainer">
-<div class="cat-lycee">🏫 LYCEE</div>
-<div class="pdf" data-id="pdf1"><div style="font-size:40px">🧪 🌋</div><h3>PDF Lycee N°1 - Le Volcan + pH</h3><p>⭐⭐⭐⭐⭐ - 8 pages - Exercices corriges inclus</p><p><b>20 DH</b></p><button class="btn-orange" onclick="acheter('PDF Lycee Volcan',20)" data-fr="💳 Acheter - 20 DH" data-en="💳 Buy - 20 DH">💳 Acheter - 20 DH</button></div>
-<div class="pdf" data-id="pdf2"><div style="font-size:40px">🔬 🧫</div><h3>PDF Lycee N°2 - La Cellule + Microscope</h3><p>⭐⭐⭐⭐⭐ - 10 pages - Exercices corriges</p><p><b>20 DH</b></p><button class="btn-orange" onclick="acheter('PDF Lycee Cellule',20)" data-fr="💳 Acheter - 20 DH" data-en="💳 Buy - 20 DH">💳 Acheter - 20 DH</button></div>
-<div class="cat-univ">🎓 UNIVERSITE</div>
-<div class="pdf" data-id="pdf3"><div style="font-size:40px">⚗️ 🧪</div><h3>PDF Universite N°1 - Titrage + Chimie</h3><p>⭐⭐⭐⭐⭐ - 12 pages - Titrage - Corriges</p><p><b>20 DH</b></p><button class="btn-orange" onclick="acheter('PDF Univ Titrage',20)" data-fr="💳 Acheter - 20 DH" data-en="💳 Buy - 20 DH">💳 Acheter - 20 DH</button></div>
-<div class="pdf" data-id="pdf4"><div style="font-size:40px">🧫 🔬</div><h3>PDF Universite N°2 - Microbiologie</h3><p>⭐⭐⭐⭐⭐ - 14 pages - Bacteries - Corriges</p><p><b>20 DH</b></p><button class="btn-orange" onclick="acheter('PDF Univ Microbio',20)" data-fr="💳 Acheter - 20 DH" data-en="💳 Buy - 20 DH">💳 Acheter - 20 DH</button></div>
-<div class="pdf" data-id="pdf5"><div style="font-size:40px">📐 ⚖️</div><h3>PDF Universite N°3 - Physique - Chute libre</h3><p>⭐⭐⭐⭐ - 10 pages - Mecanique - Corriges</p><p><b>20 DH</b></p><button class="btn-orange" onclick="acheter('PDF Univ Physique',20)" data-fr="💳 Acheter - 20 DH" data-en="💳 Buy - 20 DH">💳 Acheter - 20 DH</button></div>
-</div>
-</div>
-
-<div id="exo" class="card hidden">
-<h2 data-fr="✍️ Exercices Corriges" data-en="✍️ Solved Exercises">✍️ Exercices Corriges</h2>
-<div id="exoContainer">
-<div class="cat-lycee">🏫 LYCEE</div>
-<div class="exo" data-id="exo1"><h3>🧪 Exercice Lycee 1 - Le pH</h3><p><b>Question :</b> A pH=2 - B pH=7 - C pH=12 - Qui est acide ? neutre ? basique ?</p><div class="solution"><b>✅ Corrige :</b> A=Acide - B=Neutre - C=Basique</div></div>
-<div class="exo" data-id="exo2"><h3>🌋 Exercice Lycee 2 - Le Volcan</h3><p><b>Question :</b> Vinaigre + Bicarbonate = ?</p><div class="solution"><b>✅ Corrige :</b> Gaz CO2 - Bulles - Volcan</div></div>
-<div class="exo" data-id="exo3"><h3>🔬 Exercice Lycee 3 - La Cellule</h3><p><b>Question :</b> 3 parties de la cellule ?</p><div class="solution"><b>✅ Corrige :</b> Noyau - Membrane - Cytoplasme</div></div>
-<div class="cat-univ">🎓 UNIVERSITE</div>
-<div class="exo" data-id="exo4"><h3>⚗️ Exercice Universite 1 - Titrage</h3><p><b>Question :</b> 20 mL HCl 0.1 mol/L + NaOH 0.1 mol/L - Volume equivalence ?</p><div class="solution"><b>✅ Corrige :</b> V2=20 mL - pH=7</div></div>
-<div class="exo" data-id="exo5"><h3>🔬 Exercice Universite 2 - Microscope</h3><p><b>Question :</b> Oculaire x10 - Objectif x40 - Grossissement ?</p><div class="solution"><b>✅ Corrige :</b> 10x40=400 fois</div></div>
-<div class="exo" data-id="exo6"><h3>📐 Exercice Universite 3 - Chute Libre</h3><p><b>Question :</b> Chute de 20m - g=10 - Temps ?</p><div class="solution"><b>✅ Corrige :</b> t=2s</div></div>
-<div class="exo" data-id="exo7"><h3>🧫 Exercice Universite 4 - Bacteries</h3><p><b>Question :</b> 100 bacteries - Division chaque 20 min - Apres 2h ?</p><div class="solution"><b>✅ Corrige :</b> N=6400</div></div>
-</div>
-</div>
-
-<div id="amazon" class="card hidden">
-<h2 data-fr="🛒 Materiel du Labo - Amazon" data-en="🛒 Lab Equipment - Amazon">🛒 Materiel du Labo - Amazon</h2>
-<div style="border:2px solid #fed7aa;background:#fffbeb;padding:16px;border-radius:18px;text-align:center"><div style="font-size:36px">🔬</div><h3>Microscope Pour Eleves</h3><p>⭐ 4.8 - x40 - x1000</p><p><b>Amazon : ~ 799 DH</b> <span class="badge">Commission : ~40 DH</span></p><a href="https://www.amazon.fr/dp/B08XXXXXXX?tag=labosciences-21" target="_blank"><button class="btn-amazon" data-fr="🛒 Voir sur Amazon" data-en="🛒 View on Amazon">🛒 Voir sur Amazon</button></a><p class="small">En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.</p></div>
-</div>
-
-<div id="abo" class="card hidden">
-<h2 data-fr="💎 Abonnements" data-en="💎 Subscriptions">💎 Abonnements</h2>
-<div class="offre"><h3>📄 1 PDF</h3><p><b><span id="prixPDFDisplay">20</span> DH</b></p><button class="btn" onclick="acheter('1 PDF',20)" data-fr="Choisir - 20 DH" data-en="Choose - 20 DH">Choisir - 20 DH</button></div>
-<div class="offre best"><h3 data-fr="⭐ ABONNEMENT MENSUEL" data-en="⭐ MONTHLY SUBSCRIPTION">⭐ ABONNEMENT MENSUEL</h3><p><b><span id="prixAboDisplay">49</span> DH / mois</b></p><p>✅ TOUS les PDF<br>✅ TOUS les Exercices Corriges<br>✅ TOUS les Articles</p><button class="btn-gold" onclick="acheter('Abonnement',49)" data-fr="💎 S'abonner - 49 DH" data-en="💎 Subscribe - 49 DH">💎 S'abonner - 49 DH</button></div>
-<div class="offre"><h3 data-fr="👑 PACK VIP - A vie" data-en="👑 VIP PACK - Lifetime">👑 PACK VIP - A vie</h3><p><b><span id="prixVIPDisplay">199</span> DH</b></p><button class="btn" onclick="acheter('Pack VIP',199)" data-fr="👑 Acheter - 199 DH" data-en="👑 Buy - 199 DH">👑 Acheter - 199 DH</button></div>
-</div>
-
-<div class="card" style="text-align:center"><div style="font-size:36px">🧪 🔬 ⚗️</div><h2 data-fr="📧 Contact - Labo" data-en="📧 Contact - Lab">📧 Contact - Labo</h2><input placeholder="Ton Email / Your Email"><textarea placeholder="Ton message..."></textarea><button class="btn" onclick="alert('Message envoye !')" data-fr="📩 Envoyer" data-en="📩 Send">📩 Envoyer</button><p class="small">labo.sciences@gmail.com</p></div>
-<div class="card" style="text-align:center">
-<h3>ℹ️ A Propos</h3>
-<p class="small">Labo Sciences PRO est une plateforme educative pour les eleves du lycee et les etudiants de l'universite au Maroc et en France. Nous publions des articles gratuits, des exercices corriges et des PDF pour apprendre la chimie, la biologie et la physique en s'amusant.</p>
-<div class="footer-links"><a href="politique.html">Politique de Confidentialite</a> | <a href="contact.html">Contact</a> | <a href="index.html">Accueil</a></div>
-<p class="small">Ce site utilise Google AdSense et des liens affilies Amazon. En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.</p>
-</div>
-<div style="text-align:center;color:#94a3b8;font-size:11px;padding:14px">Labo Sciences PRO - 2026 - Tous droits reserves</div>
 
 <script>
-var lang='fr';
-function setLang(l){ lang=l; document.getElementById('btnFR').className=l==='fr'?'active':''; document.getElementById('btnEN').className=l==='en'?'active':''; document.documentElement.lang=l; var all=document.querySelectorAll('[data-fr]'); for(var i=0;i<all.length;i++){ var t=l==='fr'?all[i].getAttribute('data-fr'):all[i].getAttribute('data-en'); if(t) all[i].textContent=t; } }
-function show(id,b){ var cards=document.querySelectorAll('.card'); for(var i=0;i<cards.length;i++) cards[i].classList.add('hidden'); var el=document.getElementById(id); if(el) el.classList.remove('hidden'); if(b){ var nb=document.querySelectorAll('nav button'); for(var j=0;j<nb.length;j++) nb[j].classList.remove('active'); b.classList.add('active'); } }
-function acheter(nom,prix){ alert("Merci ! / Thank you ! "+nom+" - "+prix+" DH"); }
-function toggleArticle(btn){ var card=btn.closest('.article'); var full=card.querySelector('.article-full'); var isHidden=full.classList.contains('hidden'); full.classList.toggle('hidden'); btn.innerText = lang==='fr' ? (isHidden?"Fermer l'article":"Lire l'article complet") : (isHidden?"Close article":"Read full article"); }
-function likeBtn(btn){ var span=btn.querySelector('span'); span.innerText=parseInt(span.innerText)+1; btn.style.background="#fee2e2"; alert("Merci ! / Thank you !"); }
+const keys=['products','articles','pdf','exercises'];
+
+function getData(k){
+return JSON.parse(localStorage.getItem('labo_'+k)||'[]');
+}
+
+function setData(k,data){
+localStorage.setItem('labo_'+k,JSON.stringify(data));
+}
+
+function login(){
+if(document.getElementById('password').value==='labo2026'){
+document.getElementById('login').classList.add('hidden');
+document.getElementById('panel').classList.remove('hidden');
+renderAll();
+}else{
+document.getElementById('error').textContent='Mot de passe incorrect';
+}
+}
+
+function logout(){
+document.getElementById('panel').classList.add('hidden');
+document.getElementById('login').classList.remove('hidden');
+document.getElementById('password').value='';
+}
+
+function show(id){
+document.querySelectorAll('#panel section').forEach(x=>x.classList.add('hidden'));
+document.getElementById(id).classList.remove('hidden');
+}
+
+function add(type){
+let name='',description='',price='',link='';
+
+if(type==='products'){
+name=document.getElementById('pname').value.trim();
+price=document.getElementById('pprice').value;
+description=document.getElementById('pdesc').value.trim();
+}
+if(type==='articles'){
+name=document.getElementById('aname').value.trim();
+description=document.getElementById('adesc').value.trim();
+}
+if(type==='pdf'){
+name=document.getElementById('pdfname').value.trim();
+price=document.getElementById('pdfprice').value;
+link=document.getElementById('pdflink').value.trim();
+}
+if(type==='exercises'){
+name=document.getElementById('exname').value.trim();
+description=document.getElementById('exdesc').value.trim();
+}
+
+if(!name){alert('Veuillez saisir un nom ou un titre');return;}
+
+let data=getData(type);
+data.push({id:Date.now(),name,description,price,link});
+setData(type,data);
+
+document.querySelectorAll('#'+type+' input,#'+type+' textarea').forEach(x=>x.value='');
+render(type);
+updateStats();
+alert('Élément enregistré dans ce navigateur.');
+}
+
+function render(type){
+let list=getData(type);
+let target=document.getElementById(type+'List');
+
+target.innerHTML=list.map(x=>`
+<div class="item">
+<strong>${escapeHTML(x.name)}</strong>
+<p>${escapeHTML(x.description||'')}</p>
+${x.price!==''?'<b>'+escapeHTML(x.price)+' DH</b>':''}
+${x.link?'<p>Lien : '+escapeHTML(x.link)+'</p>':''}
+<br>
+<button onclick="editItem('${type}',${x.id})">✏️ Modifier</button>
+<button class="red" onclick="deleteItem('${type}',${x.id})">🗑️ Supprimer</button>
+</div>`).join('');
+}
+
+function escapeHTML(value){
+return String(value).replace(/[&<>"']/g,c=>({
+'&':'&amp;','<':'&lt;','>':'&gt;',
+'"':'&quot;',"'":'&#39;'
+})[c]);
+}
+
+function editItem(type,id){
+let data=getData(type);
+let x=data.find(a=>a.id===id);
+if(!x)return;
+
+let name=prompt('Nouveau nom ou titre :',x.name);
+if(name===null)return;
+let description=prompt('Nouvelle description :',x.description||'');
+if(description===null)return;
+
+x.name=name.trim();
+x.description=description;
+
+if(type==='products'||type==='pdf'){
+let price=prompt('Nouveau prix en DH :',x.price);
+if(price===null)return;
+x.price=price;
+}
+if(type==='pdf'){
+let link=prompt('Nouveau lien PDF :',x.link||'');
+if(link===null)return;
+x.link=link;
+}
+setData(type,data);
+render(type);
+}
+
+function deleteItem(type,id){
+if(!confirm('Supprimer cet élément ?'))return;
+setData(type,getData(type).filter(x=>x.id!==id));
+render(type);
+updateStats();
+}
+
+function updateStats(){
+document.getElementById('productCount').textContent=getData('products').length;
+document.getElementById('articleCount').textContent=getData('articles').length;
+document.getElementById('pdfCount').textContent=getData('pdf').length;
+document.getElementById('exoCount').textContent=getData('exercises').length;
+}
+
+function renderAll(){
+keys.forEach(render);
+updateStats();
+let s=JSON.parse(localStorage.getItem('labo_settings')||'{}');
+['siteName','email','pricePDF','priceAbo','priceVIP'].forEach(id=>{
+if(s[id]!==undefined)document.getElementById(id).value=s[id];
+});
+}
+
+function saveSettings(){
+let s={};
+['siteName','email','pricePDF','priceAbo','priceVIP'].forEach(id=>{
+s[id]=document.getElementById(id).value;
+});
+localStorage.setItem('labo_settings',JSON.stringify(s));
+alert('Paramètres enregistrés dans ce navigateur.');
+}
+
+function exportData(){
+let result={};
+keys.forEach(k=>result[k]=getData(k));
+result.settings=JSON.parse(localStorage.getItem('labo_settings')||'{}');
+let blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json'});
+let a=document.createElement('a');
+a.href=URL.createObjectURL(blob);
+a.download='labo-sciences-backup.json';
+a.click();
+URL.revokeObjectURL(a.href);
+}
+
 </script>
 </body>
 </html>
